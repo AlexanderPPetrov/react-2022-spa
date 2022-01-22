@@ -6,6 +6,7 @@ import {
 
 import Home from "./pages/Home";
 import User from "./pages/User";
+import Forecast from "./pages/Forecast";
 
 const routes = [
   {
@@ -15,6 +16,10 @@ const routes = [
   {
     path: '/user',
     element: <User/>
+  },
+  {
+    path: '/forecast',
+    element: <Forecast/>
   },
 ]
 
